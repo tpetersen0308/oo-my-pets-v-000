@@ -20,4 +20,8 @@ class Owner
   def self.count
     @@all.size
   end
+
+  def say_species
+    puts "I am a #{self.species}."
+  end
 end
